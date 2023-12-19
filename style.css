@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.main{
+    width: 100%;
+    max-width: 500px;
+    background: #fff;
+    margin: 80px auto;
+    padding: 30px 10px;
+    border-radius: 10px;
+}
+
+.main h2{
+    color: #002765;
+  display: flex;
+  align-items: center;
+  margin-bottom: 40px;
+  justify-content: center;
+}
+
+.row{
+border: 1px solid;
+border-radius: 10px; 
+align-items: center;
+justify-content: center;
+padding: 10px;
+margin: 15px;
+width: 470px;
+
+}
+.main_input{
+position: relative;
+height: 80px;
+width: 200px;
+padding: 10px;
+cursor: pointer;
+transition: height 0.5s;
+        
+}
+input{
+    cursor: pointer;
+}
+.main_inpu input{
+    height: 60px;
+    width:40px;
+    cursor: pointer;
+}
+
+.main_input p{
+    font-size: 20px;
+    padding: 5px 30px; 
+}
+.main_input span{
+    font-size: 20px;
+    padding-left: 30px;
+}
+.main_input .main_p{
+    padding-left: 15px;
+}
+.main_out{
+    position: absolute;
+}
+.main_out span{
+    font-size: 20px;
+    padding-left: 300px;
+}
+.tags_input{
+ font-size: 12px;   
+ 
+}
+.tags_input span{
+    padding-left: 50px;
+    font-size: 20px;
+    
+}
+select{
+    padding: 0px 7px;
+    height: 24px;
+    margin: 3px;
+    font-size: 13px;
+    width: 75px;
+
+}
+.div-p{
+    padding-bottom: 18px;
+}
+.div-p span{
+   padding-left: 100px;
+    font-size: 18px;
+}
+.div-p .btn{
+    padding:  30px;
+    color: #007F61;
+    
+}
+button{
+    padding:7px;
+    height: 45px;
+    font-size: 25px;
+    text-align: center;
+    width: 100%;
+    background-color: #007F61;
+    color: #fff;
+    margin: 5px;
+    cursor: pointer; 
+}
+.tags_p{
+    padding-left: 25px;
+    font-size: 20px;
+}
+
+.options{
+    list-style: circle;
+    display: none;
+    margin-top: 10px;
+}
+
+.option{
+    display: inline-block;
+    margin: 0px;
+    padding: 2px 12px;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 4px;
+}
+.row.expanded{
+    border: 1px solid black;
+    width: 470px;
+    height:200px;
+    margin: 17px;
+
+}
+
+
+ 
+  

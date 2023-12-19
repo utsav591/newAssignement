@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>First Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="main">
+            <h2>Bundle & Save </h2>
+            <div class="row"  onclick="expandBox(this)">
+                <div class="main_out">
+                    <span>50% OFF</span>
+                </div>
+                <div class="main_input">
+                    <input type="radio" class="option" onclick="option('box1')" name="group1"><span class="main_p">1 Pair</span>
+                    <p>DKK 195.00</p>
+                    <div id="box1Options" class="options">
+                        <div class="tags_input">
+                            <div class="tags_p">Size<span>Colour</span></div><br>
+                            #1<select id="size" name="size">
+                                <option value="S">S</option>
+                            </select>
+                            <select name="colour">
+                                <option value="red">colour</option>
+                            </select>
+                        </div>
+                        <div class="tags_input">
+                            #2<select name="size">
+                                <option value="S">S</option>
+                            </select>
+                            <select name="colour">
+                                <option value="red">colour</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" onclick="expandBox(this)">
+                <div class="main_out">
+                    <span style='color: #007F61;'>Most Popular</span><br>
+                    <span>40% OFF</span>
+                </div>
+                <div class="main_input">
+                    <input type="radio" class="option" onclick="option('box2')" name="group2"><span class="main_p">2 Pair</span>
+                    <p>DKK 345.00</p>
+                    <div id="box2Options" class="options">
+                        <div class="tags_input">
+                            <div class="tags_p">Size<span>Colour</span></div><br>
+                            #1<select name="size">
+                                <option value="S">S</option>
+                            </select>
+                            <select name="colour">
+                                <option value="red">colour</option>
+                            </select>
+                        </div>
+                        <div class="tags_input">
+                            #2<select name="size">
+                                <option value="S">S</option>
+                            </select>
+                            <select name="colour">
+                                <option value="red">colour</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row" onclick="expandBox(this)">
+                <div class="main_out">
+                    <span>60% OFF</span>
+                </div>
+                <div class="main_input">
+                    <input type="radio" class="option" onclick="option('box3')" name="group1"><span class="main_p">3 Pair</span>
+                    <p>DKK 528.00</p>
+                    <div id="box3Options" class="options">
+                        <div class="tags_input">
+                            <div class="tags_p">Size<span>Colour</span></div><br>
+                            #1<select name="size">
+                                <option value="S">S</option>
+
+                            </select>
+                            <select name="colour">
+                                <option value="red">colour</option>
+                            </select>
+                        </div>
+                        <div class="tags_input">
+                            #2<select name="size">
+                                <option value="S">S</option>
+
+                            </select>
+                            <select name="colour">
+                                <option value="colour">colour</option>
+
+                            </select>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="div-p">
+                <span class="btn">Free 2 Day Shipping</span> <span>Total : DKK 360.00</span>
+            </div>
+            <button onclick="addToCart()">+ Add Cart</button>
+        </div>
+    </div>
+    </div>
+    <script rel="text/script" src="index.js"></script>
+</body>
+
+</html>
