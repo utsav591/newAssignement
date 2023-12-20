@@ -12,7 +12,7 @@ function addToCart() {
     const boxes = ['box1', 'box2', 'box3'];
 
     boxes.forEach(boxId => {
-      const selectedOption = document.querySelector(`input[name=${boxId}]:checked)`);
+      const selectedOption = document.querySelector(`input[name=${boxId}Options]:checked)`);
       if (selectedOption) {
         selectedOptions.push(`${boxId}: ${selectedOption.nextSibling.textContent.trim()}`);
       }
