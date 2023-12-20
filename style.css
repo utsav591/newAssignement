@@ -43,10 +43,9 @@ transition: height 0.5s;
 input{
     cursor: pointer;
 }
-.main_inpu input{
-    height: 60px;
-    width:40px;
-    cursor: pointer;
+.main_input input{
+    height: 15px;
+    width:15px; 
 }
 
 .main_input p{
@@ -60,12 +59,21 @@ input{
 .main_input .main_p{
     padding-left: 15px;
 }
+.main_out .span1{
+    padding-left: 200px;
+    font-size: 12px;
+    text-decoration: line-through;
+}
 .main_out{
     position: absolute;
 }
 .main_out span{
     font-size: 20px;
     padding-left: 300px;
+}
+.main_out.span2{
+    font-size: 20px;
+    padding-left: 200px
 }
 .tags_input{
  font-size: 12px;   
@@ -127,7 +135,7 @@ button{
     border-radius: 4px;
 }
 .row.expanded{
-    border: 1px solid black;
+    border: 2px solid #007F61;
     width: 470px;
     height:200px;
     margin: 17px;
